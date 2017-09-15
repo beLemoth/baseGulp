@@ -33,8 +33,10 @@
     "gulp-uglyfly": "^1.4.2",
     "gulp-zip": "^4.0.0",
     "gulp.spritesmith": "^6.5.1",
+    "merge-stream": "^1.0.1"
+  },
+  "dependencies": {
     "jquery": "^3.2.1",
-    "merge-stream": "^1.0.1",
     "normalize.css": "^7.0.0"
   }
 }
