@@ -1,0 +1,33 @@
+@import 'common/box-sizing';
+@import 'common/mixins';
+@import 'common/clearfix';
+
+/* local fonts */
+@include font-face('PoiretOneRegular', 'PoiretOneRegular');
+
+/* variables */
+
+$logo-font: 'PoiretOneRegular', sans-serif;
+
+$white-text: #43ff1e;
+
+/* global settings */
+
+body {
+  margin: 0;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.container {
+  width: 1300px; padding: 0 15px; margin: auto;
+}
+
+
+/* import sections */
+
+@import 'common/sections/*.scss';
+
