@@ -13,6 +13,7 @@ global.$ = {
     browserSync: require('browser-sync'),
     merge: require('merge-stream'),
     spritesmith: require('gulp.spritesmith'),
+    fs: require('fs'),
     gp: require('gulp-load-plugins')()
 };
 
