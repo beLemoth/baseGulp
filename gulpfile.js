@@ -16,7 +16,6 @@ global.$ = {
     fs: require('fs'),
     gp: require('gulp-load-plugins')()
 };
-
 $.path.tasks.forEach(function(taskPath){
    require(taskPath)();
 });
